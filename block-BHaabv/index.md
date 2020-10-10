@@ -1,0 +1,216 @@
+writeCode
+
+- Create a layout according to the design shown below.
+
+![Backgrounds and gradients level 2](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/background-and-gradients/ex-2.jpg)
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper.
+
+- Work on typography in detail.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment2|Background and Gradients</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container flex">
+            <div>
+                <h1>Social Media Dashboard</h1>
+                <h4>Total Followers: 23,004</h4>
+            </div>
+            <div class="btn-container flex ">
+                <span>Dark Mode</span>
+                <div class="button flex">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="card-container">
+            <div class="container flex">
+                <div class="card card-fb">
+                    <div class="border-top"></div>
+                    <header class="flex center">
+                    <img class="icons" src="fb.png" alt="facebook">
+                    <p>@nathanf</p>
+                    </header>
+                    <div class="card-body">
+                        <h2>1987</h2>
+                        <p>Followers</p>
+                    </div>
+                    <footer class="card-footer">
+                        <img class="icons" src="uparrow.png" alt="uparrow">
+                        <span>12 Today</span>
+                    </footer>
+                </div>
+                <div class="card card-twitter">
+                    <div class="border-top"></div>
+                    <header class="flex center">
+                    <img class="icons" src="twiiter.png" alt="twitter">
+                    <p>@nathanf</p>
+                    </header>
+                    <div class="card-body">
+                        <h2>1044</h2>
+                        <p>Followers</p>
+                    </div>
+                    <footer class="card-footer">
+                        <img class="icons" src="uparrow.png" alt="uparrow">
+                        <span>99 Today</span>
+                    </footer>
+                </div>
+                <div class="card card-insta">
+                    <div class="border-top"></div>
+                    <header class="flex center">
+                    <img class="icons" src="instagram.jpg" alt="insta">
+                    <p>@realnathanf</p>
+                    </header>
+                    <div class="card-body">
+                        <h2>11k</h2>
+                        <p>Followers</p>
+                    </div>
+                    <footer class="card-footer">
+                        <img class="icons" src="uparrow.png" alt="uparrow">
+                        <span>1099 Today</span>
+                    </footer>
+                </div>
+                <div class="card card-youtube">
+                    <div class="border-top"></div>
+                    <header class="flex center">
+                    <img class="icons" src="youtube.png" alt="youtube">
+                    <p>@Nathan F.</p>
+                    </header>
+                    <div class="card-body">
+                        <h2>8239</h2>
+                        <p>Followers</p>
+                    </div>
+                    <footer class="card-footer">
+                        <img class="icons" src="downarrow.png" alt="downarrow">
+                        <span class="youtubespan">144 Today</span>
+                    </footer>
+                </div>
+            </div>
+        </section>
+        <section class="overview card-container">
+            <div class="container">
+                <h2>Overview-Today</h2>
+                <div class="flex wrap">
+                <div class="card overview-card">
+                    <header class="card-header flex">
+                        <h4>Page Views</h4>
+                        <img class="icons" src="fb.png" alt="facebool">
+                    </header>
+                    <div class="flex">
+                        <h3>87</h3>
+                        <div>
+                            <img class="icons up" src="uparrow.png" alt="uparrow">
+                            <span>3%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card overview-card">
+                    <header class="card-header flex">
+                        <h4>Likes</h4>
+                        <img class="icons" src="fb.png" alt="facebool">
+                    </header>
+                    <div class="flex">
+                        <h3>52</h3>
+                        <div>
+                            <img class="icons up" src="downarrow.png" alt="uparrow">
+                            <span>2%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card overview-card">
+                    <header class="card-header flex">
+                        <h4>Likes</h4>
+                        <img class="icons" src="instagram.jpg" alt="facebool">
+                    </header>
+                    <div class="flex">
+                        <h3>5462</h3>
+                        <div>
+                            <img class="icons up" src="uparrow.png" alt="uparrow">
+                            <span>2257%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card overview-card">
+                    <header class="card-header flex">
+                        <h4>Profile Views</h4>
+                        <img class="icons" src="instagram.jpg" alt="facebool">
+                    </header>
+                    <div class="flex">
+                        <h3>52k</h3>
+                        <div>
+                            <img class="icons up" src="uparrow.png" alt="uparrow">
+                            <span>1375%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card overview-card">
+                    <header class="card-header flex">
+                        <h4>Retweets</h4>
+                        <img class="icons" src="twiiter.png" alt="facebool">
+                    </header>
+                    <div class="flex">
+                        <h3>117</h3>
+                        <div>
+                            <img class="icons up" src="uparrow.png" alt="uparrow">
+                            <span>117%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card overview-card">
+                    <header class="card-header flex">
+                        <h4>Likes</h4>
+                        <img class="icons" src="twiiter.png" alt="facebool">
+                    </header>
+                    <div class="flex">
+                        <h3>507</h3>
+                        <div>
+                            <img class="icons up" src="uparrow.png" alt="uparrow">
+                            <span>507%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card overview-card">
+                    <header class="card-header flex">
+                        <h4>Likes</h4>
+                        <img class="icons" src="youtube.png" alt="facebool">
+                    </header>
+                    <div class="flex">
+                        <h3>107</h3>
+                        <div>
+                            <img class="icons up" src="downarrow.png" alt="uparrow">
+                            <span>19%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card overview-card">
+                    <header class="card-header flex">
+                        <h4>Total Views</h4>
+                        <img class="icons" src="youtube.png" alt="facebool">
+                    </header>
+                    <div class="flex">
+                        <h3>1407</h3>
+                        <div>
+                            <img class="icons up" src="downarrow.png" alt="uparrow">
+                            <span>12%</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+
+        </section>
+    </main>
+    
+</body>
+</html>
